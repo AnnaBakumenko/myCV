@@ -4,139 +4,226 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Resume</title>
   </head>
 
   <body>
     <!--Main-->
-    <div>
+    <div class="main">
       <!--Main content-->
-      <div>
+      <div class="main-content">
         <!--About user-->
-        <div>
-          <h2>Practical psychologist</h2>
+        <div class="about">
+          <h2 class="about-position">Psychologist</h2>
 
-          <h1>Anna Bakumenko</h1>
-          <p>
-            Whenever you feel like criticizing any one,» he told me, «just
-            remember that all the people in this world haven’t had the
-            advantages that you’ve had.
+          <h1 class="about-name">Anna Bakumenko</h1>
+          <p class="about-decription">
+            FIXME: Whenever you feel like criticizing any one, just remember that all the people in this world haven't
+            had the advantages that you've had.
           </p>
         </div>
-        <!--Projects-->
-        <div>
-          <h3>Projects</h3>
-
-          <ol>
-            <li>
-              <a href="https://hellenglish.goit.global/"
-                >https://hellenglish.goit.global/</a
-              >
-              ......... [ HTML5, CSS3 ]
-            </li>
-            <li>
-              <a href="https://cryptohub.goit.global/"
-                >https://cryptohub.goit.global/</a
-              >
-              .......... [ JavaScript ]
-            </li>
-            <li>
-              <a href="https://kidslike.goit.global/"
-                >https://kidslike.goit.global/</a
-              >
-              .............. [ React.js, Node.js ]
-            </li>
-          </ol>
-        </div>
-        <!--Work-->
-        <div>
-          <h3>Work Experience</h3>
+        <!------------------------Work----------------------->
+        <div class="work">
+          <h3 class="title">Work Experience</h3>
           <!--Company 1-->
-          <div>
-            <h4>Front-End Developer Freelance</h4>
-            <p>September 2019 - up to now | Country</p>
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Risus commodo viverra maecenas.</li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </li>
+          <div class="work-wrap">
+            <h4 class="work-position">
+              Assistant manager
+              <span class="organization">FOP Katkova</span>
+            </h4>
+            <p class="period">
+              September 2015 - November 2018
+              <span class="line">|</span>
+              Ukraine
+            </p>
+            <ul class="work-list">
+              <li class="work-list-item">Selection of participants for exhibitions and fairs</li>
+              <li class="work-list-item">Organization and holding of exhibitions and fairs</li>
+              <li class="work-list-item">Create press releases for events</li>
+              <li class="work-list-item">Online store manager</li>
+              <li class="work-list-item">Content creation for instagram and facebook</li>
             </ul>
           </div>
           <!--Company 2-->
-          <div>
-            <h4>Manager Roga & Kopyta New</h4>
-            <p>March 2015 - October 2018 | Country</p>
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod labore et dolore magna aliqua.
-              </li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+          <div class="work-wrap">
+            <h4 class="work-position">
+              Remote administrator
+              <span class="organization">Beauty salon</span>
+            </h4>
+            <p class="period">
+              March 2015 - August 2016
+              <span class="line">|</span>
+              Ukraine
+            </p>
+            <ul class="work-list">
+              <li class="work-list-item">Client Recording</li>
+              <li class="work-list-item">Ordering materials</li>
+              <li class="work-list-item">Teaching the theoretical basis of shugaring</li>
             </ul>
           </div>
           <!--Company 3-->
-          <div>
-            <h4>Manager Roga & Kopyta LLC</h4>
-            <p>June 2014 - February 2015 | Country</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+          <div class="work-wrap">
+            <h4 class="work-position">
+              Practical psychologist
+              <span class="organization">Secondary school No. 8</span>
+            </h4>
+            <p class="period">
+              Semtember 2013 - November 2014
+              <span class="line">|</span>
+              Ukraine
+            </p>
+            <ul class="work-list">
+              <li class="work-list-item">Psychological consultation</li>
+              <li class="work-list-item">Correctional and developmental work</li>
+              <li class="work-list-item">Educational activities</li>
+              <li class="work-list-item">Methodical work</li>
             </ul>
           </div>
         </div>
         <!--Education-->
-        <div>
-          <h3>Education</h3>
-          <h4>National Technical University «Kharkiv Polytechnic Institute»</h4>
-          <h4>Management</h4>
-          <p>September 2009 - June 2014 | Country</p>
+        <div class="education">
+          <h3 class="title">Education</h3>
+          <h4 class="title-education education-title">National Technical University «Kharkiv Polytechnic Institute»</h4>
+          <h4 class="management">Master's degree in Administrative management</h4>
+          <p class="period">
+            September 2012 - June 2013
+            <span class="line">|</span>
+            Ukraine
+          </p>
+          <h4 class="management">Master's degree in Practical psychologist</h4>
+          <p class="period">
+            September 2011 - June 2012
+            <span class="line">|</span>
+            Ukraine
+          </p>
+          <h4 class="management">Bachelor's degree in Practical psychologist</h4>
+          <p class="period">
+            September 2007 - June 2011
+            <span class="line">|</span>
+            Ukraine
+          </p>
+        </div>
+        <!--Additional education-->
+        <div class="education">
+          <h3 class="title">Additional education</h3>
+          <h4 class="title-education">Program for prevention of alcohol addiction</h4>
+          <p class="period">
+            March 2013
+            <span class="line">|</span>
+            Ukraine
+          </p>
+          <h4 class="title-education">Art therapy workshop by Elena Tararina</h4>
+          <p class="period">
+            November 2013
+            <span class="line">|</span>
+            Ukraine
+          </p>
+          <h4 class="title-education">Basic Psychodrama Course</h4>
+          <p class="period">
+            November 2011 - December 2011
+            <span class="line">|</span>
+            Ukraine
+          </p>
+          <h4 class="title-education">School of Client-Centered Psychotherapy after A. S. Kocharyan</h4>
+          <p class="period">
+            October 2011 - November 2012
+            <span class="line">|</span>
+            Ukraine
+          </p>
         </div>
       </div>
       <!--Sidebar-->
-      <aside>
-        <img
-          src="img/be184327-10c4-48ff-b81d-b109cd6afd64.jpg"
-          alt="User photo"
-        />
+      <aside class="sidebar">
+        <img src="img/Photo_resume.jpg" alt="User photo" class="photo" />
         <!--Contacts-->
-        <div>
-          <h3>Contacts</h3>
+        <div class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
           <div>
-            <p>C: <a href="tel:+380996366463">+380996366463</a></p>
-            <p>
-              E: <a href="mailto:annashorup@gmail.com">annashorup@gmail.com</a>
-            </p>
+            <ul class="contact-list">
+              <li>
+                <a class="contact-link" href="tel:+380996366463">
+                  <svg class="contact-icon" width="16" height="16">
+                    <use href="./img/sprite.svg#mobile"></use>
+                  </svg>
+                  +380996366463
+                </a>
+              </li>
+              <li>
+                <a class="contact-link" href="mailto:annashorup@gmail.com">
+                  <svg class="contact-icon" width="16" height="16">
+                    <use href="./img/sprite.svg#mail"></use>
+                  </svg>
+                  annashorup@gmail.com
+                </a>
+              </li>
+              <li>
+                <a class="contact-link" href="https://m.facebook.com/ashorup">
+                  <svg class="contact-icon" width="16" height="16">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                  Anna Shorup
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <!--Tech Skills-->
-        <div>
-          <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node</li>
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">HTML5 (basic)</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">CSS3 (basic)</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">GitHub</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Figma (basic)</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Photoshop (basic)</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Microsoft Office</span>
+            </li>
           </ul>
         </div>
         <!--Soft Skills-->
-        <div>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Stress resistance</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Amiable</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Multitasking</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Pedantry</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Energetic</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Hard-working</span>
+            </li>
           </ul>
         </div>
       </aside>
