@@ -254,6 +254,14 @@ p {
 .contact-link:focus {
   color: #fb6d3a;
 }
+.contact-link.fb-link:hover,
+.contact-link.fb-link:focus {
+  color: #3b5998;
+}
+.contact-link.in-link:hover,
+.contact-link.in-link:focus {
+  color: #0e76a8;
+}
 
 .tech-skills {
   margin-bottom: 45px;
