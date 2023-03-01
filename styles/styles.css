@@ -286,3 +286,8 @@ p {
   font-size: 14px;
   line-height: 24px;
 }
+
+.certificate:hover,
+.certificate:focus {
+  color: #222223
+}
