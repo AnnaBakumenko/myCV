@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f7fa;
+  background-color: #eaecef;
 }
 
 /* main styles */
@@ -54,7 +54,7 @@ p {
 .about-decription {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -91,35 +91,35 @@ p {
 .project-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 28px;
   color: #595959;
 }
 
 .project-link {
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 .project-bracket {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 28px;
   color: #000000;
 }
 /* work styles*/
 .work-wrap {
-  margin-bottom: 28px;
+  margin-bottom: 36px;
 }
 .work {
-  margin-bottom: 45px;
+  margin-bottom: 65px;
 }
 
 .work-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 28px;
   color: #000000;
   margin-bottom: 8px;
 }
@@ -127,7 +127,7 @@ p {
 .organization {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   color: #0e76a8;
 }
@@ -135,10 +135,10 @@ p {
 .period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #221f1f;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 .work .period {
   margin-bottom: 10px;
@@ -160,7 +160,7 @@ p {
 .work-list-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -184,7 +184,7 @@ p {
 .management {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 8px;
@@ -224,7 +224,7 @@ p {
 .contact-type {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 10px;
@@ -244,7 +244,7 @@ p {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #c9cdd5;
   transition: color 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -283,13 +283,13 @@ p {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
 }
 
 .certificate:hover,
 .certificate:focus {
-  color: #222223
+  color: #0e76a8
 }
 .title-additional-education {
   font-style: normal;
