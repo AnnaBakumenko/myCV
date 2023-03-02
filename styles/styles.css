@@ -48,7 +48,7 @@ p {
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .about-decription {
@@ -70,7 +70,7 @@ p {
   font-weight: 700;
   font-size: 24px;
   line-height: 27px;
-  color:#17113f;
+  color: #17113f;
   margin-bottom: 16px;
 }
 
@@ -112,7 +112,7 @@ p {
   margin-bottom: 36px;
 }
 .work {
-  margin-bottom: 65px;
+  margin-bottom: 45px;
 }
 
 .work-position {
@@ -173,13 +173,13 @@ p {
 .title-education {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   color: #0e76a8;
   margin-bottom: 10px;
 }
 .education-title {
-  margin-bottom: 12px;
+  margin-top: 20px;
 }
 .management {
   font-style: normal;
@@ -235,7 +235,7 @@ p {
   margin: 0;
 }
 .contact-icon {
-  margin-right: 10px;
+  margin-right: 12px;
   fill: currentColor;
 }
 .contact-link {
@@ -255,14 +255,22 @@ p {
 }
 .contact-link.fb-link:hover,
 .contact-link.fb-link:focus {
-    color: #0e76a8;
+  color: #0e76a8;
 }
 .contact-link.in-link:hover,
 .contact-link.in-link:focus {
   color: #0e76a8;
 }
+.location {
+  color: #c9cdd5;
+  line-height: 30px;
+}
+.location span {
+  margin-left: -4px;
+}
 
-.tech-skills {
+.tech-skills,
+.soft-skills {
   margin-bottom: 45px;
 }
 
@@ -283,13 +291,13 @@ p {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
 .certificate:hover,
 .certificate:focus {
-  color: #0e76a8
+  color: #0e76a8;
 }
 .title-additional-education {
   font-style: normal;
@@ -301,5 +309,5 @@ p {
 }
 
 .certificate {
-   color: #1e2939;
+  color: #1e2939;
 }
